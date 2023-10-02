@@ -1,24 +1,37 @@
-import logo from './logo.svg';
+import myPhoto from './myPhoto.jpeg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Site de Raphael Agra</h1>
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      
+      <header className="App-header">
+        <div className="App-tittle">
+          <h1>Site de Raphael Agra</h1>
+
+          <img src={myPhoto} className="my-photo" alt="logo" />
+        </div>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          {/* Edit <code>src/App.js</code> and save to reload. */}
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.linkedin.com/in/raphael-agra-498569196/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Linkedin
         </a>
-      </header> */}
+
+        <a
+          className="App-link"
+          href="https://github.com/raphaelhla"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Github
+        </a>
+      </header>
     </div>
   );
 }

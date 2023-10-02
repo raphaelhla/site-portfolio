@@ -28,6 +28,13 @@
   color: white;
 }
 
+.App-tittle > img {
+  max-height: 200px;
+  border-radius: 100px;
+  /* object-fit: contain; */
+  /* margin-right: 0px; */
+}
+
 .App-link {
   color: #61dafb;
 }
